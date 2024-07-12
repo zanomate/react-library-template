@@ -1,11 +1,10 @@
-import React, { FC } from 'react'
 import { FooOptions } from '../helpers/fooHelper'
 
 export interface FooCompProps {
   fooOptions: FooOptions
 }
 
-export const FooComp: FC<FooCompProps> = (props) => {
+export const FooComp = (props: FooCompProps) => {
   const { fooOptions } = props
 
   return (
